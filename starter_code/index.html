@@ -10,8 +10,15 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
 
   <!-- link your styles -->
-  <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel="stylesheet" href="./stylesheets/style.css">
+  <link rel="stylesheet" href="./stylesheets/navheader.css">
+  <link rel="stylesheet" href="./stylesheets/mainsections1and2.css">
+  <link rel="stylesheet" href="./stylesheets/mainsections3and4.css">
+  <link rel="stylesheet" href="./stylesheets/mainsections5and6.css">
+  <link rel="stylesheet" href="./stylesheets/footer.css">
 
+  <!-- Font stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
 </head>
@@ -39,14 +46,14 @@
 
     <div>
       <button>
-        <img src="./images/icon-search.png" alt="Search icon">
+        <img class="nav-icon" src="./images/icon-search.png" alt="Search icon">
       </button>
 
       <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
+        <img class="nav-icon" src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
-      <ul hidden>
+      <ul>
         <li>
           <a href="#">Sign in</a>
         </li>
@@ -61,12 +68,12 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span>Slack is free to try </span>for as long as you'd like.</p>
 
-      <div>
+      <div class="btn-log">
         <button>Sign up with email</button>
 
-        <button>
+        <button class="btn-google">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -74,13 +81,13 @@
 
     </div>
 
-    <div>
+    <div class="hero-product">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
+    <section class="companies">
       <p>Trusted by companies all over the world</p>
 
       <div>
@@ -94,9 +101,10 @@
 
     </section>
 
-    <section>
+    <section class="team">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
+        <img src="./images/connectedness.png" alt="connectedness">
       </div>
 
       <div>
@@ -113,7 +121,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="work">
       <div>
         <h2>Choose how you want to work</h2>
         <p>
@@ -127,14 +135,16 @@
         </a>
       </div>
 
-      <div>
+      <div class="work-image">
         <img src="./images/flexibility-mobile.png" alt="flexibility" />
+        <img src="./images/flexibility.png" alt="flexibility">
       </div>
     </section>
 
-    <section>
+    <section class="tools">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
+        <img src="./images/speed.png" alt="speed">
       </div>
 
       <div>
@@ -151,11 +161,11 @@
     </section>
 
 
-    <section>
+    <section class="sales">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div>
+      <div class="btn-sales">
         <button>Meet Slack for enterprise</button>
         <button>Talk to sales</button>
       </div>
@@ -172,7 +182,7 @@
         <li>
           <p><span>86%</span></p>
           <p>
-            feel their ability to work remotely has improved has improved
+            feel their ability to work remotely has improved
             <sup>*</sup>
           </p>
         </li>
@@ -180,14 +190,18 @@
         <li>
           <p><span>88%</span></p>
           <p>
-            feel more connected to their teams*
+            feel more connected to their teams
             <sup>*</sup>
           </p>
         </li>
       </ul>
+      <p id="added-text">* Weighted average. Based on 2,707 survey responses from 
+        weekly Slack users in  the U.S, UK, Australia and Canada with a ± 2% margin of
+        error at 95% CI (August 2020).
+      </p>
     </section>
 
-    <section>
+    <section class="try">
       <h3>Welcome to your new digital HQ</h3>
 
       <button>Try for free</button>
@@ -198,7 +212,7 @@
 
   <footer>
     <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
+    <div class="grid">
       <ul>
         <li>WHY SLACK?</li>
         <li>Slack vs. Email</li>
@@ -234,8 +248,9 @@
       </ul>
     </div>
 
+    <hr>
 
-    <ul>
+    <ul class="status">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
@@ -244,8 +259,6 @@
       <li>Change Region</li>
       <li>Download Slack</li>
     </ul>
-
-    <hr>
 
     <ul>
       <li>
