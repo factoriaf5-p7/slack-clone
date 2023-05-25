@@ -1,0 +1,475 @@
+
+
+
+/* SECTION 5 - SALES */
+
+.sales {
+    background-color: white;
+    text-align: center;
+}
+
+.sales h3 {
+    padding-top: 70px;
+    font-size: 2em;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 5px auto;
+}
+
+.sales p:nth-of-type(1) {
+   max-width: 90%;
+   margin: 10px auto;
+   text-align: center;
+}
+
+.btn-sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+
+/* Sales buttons styling */
+.btn-sales button {
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    margin: 7px auto; 
+    font-weight: bold;
+}
+
+.btn-sales button:nth-child(1){
+    background-color: var(--background-purple);
+    color: white;
+    border: solid 2px var(--background-purple);
+}
+
+
+.btn-sales button:nth-child(2){
+    background-color: white;
+    color: var(--background-purple);
+    border: solid 2px var(--background-purple);
+    
+}
+
+/* Sales percentages styling */
+
+.sales ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.sales span {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--background-purple);
+}
+
+.sales p {
+    margin: 15px auto;
+    font-weight: 600;
+    max-width: 220px;
+}
+
+.sales ul li:nth-child(2) p:nth-child(2) {
+   max-width: 300px;
+}
+
+#added-text{
+    max-width: 400px;
+    margin: 10px auto;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: lightslategray;
+    padding-bottom: 60px;
+}
+
+/* SECTION 6*/
+
+.try {
+    background-color: var(--background-purple);
+    text-align: center;
+    margin: 0px 25px;
+    padding-bottom: 50px;
+}
+
+.try h3 {
+    padding-top: 70px;
+    font-size: 2em;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 5px auto;
+    color:white;
+}
+
+.try button {
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    margin: 7px auto; 
+    font-weight: bold;
+}
+
+.try button:nth-child(3) {
+   color: white;
+   background-color: var(--background-purple);
+  }
+  
+  .try button:nth-child(2) {
+   color: var(--background-purple);
+   
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+
+
+/* SECTION 5 - SALES */
+
+
+.sales p:nth-of-type(1) {
+   font-size: 1em;
+}
+
+.btn-sales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 20px auto;
+}
+
+
+/* Sales buttons styling */
+.btn-sales button {
+    margin: 7px 10px; 
+
+}
+
+.btn-sales button:nth-child(1){
+
+    width: 320px;
+}
+
+
+.btn-sales button:nth-child(2){
+    width: 170px;
+    
+}
+
+/* Sales percentages styling */
+
+.sales ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 50px;
+    gap: 30px;
+    padding-bottom: 60px;
+
+}
+
+.sales p {
+    margin: 15px auto;
+    font-weight: 600;
+    max-width: 220px;
+    text-align: left;
+}
+
+.sales span {
+    display: flex;
+    margin-bottom: 0;
+    margin-left: -5%;
+}
+
+.sales ul li:nth-child(2) p:nth-child(2) {
+   max-width: 300px;
+}
+
+#added-text{
+   display: none;
+}
+
+/* SECTION 6*/
+
+.try {
+    text-align: center;
+    margin: 0px 25px;
+    padding-bottom: 50px;
+}
+
+.try h3 {
+    padding-top: 0px;
+    font-size: 2.2em;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 5px auto;
+    color:white;
+}
+
+.try button {
+    width: 80%;
+    
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width:1440px){ 
+
+    
+/* SECTION 5 - SALES */
+
+
+.sales p:nth-of-type(1) {
+    font-size: 1em;
+ }
+ 
+ .btn-sales {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     max-width: fit-content;
+     margin: 20px auto;
+ }
+ 
+ 
+ /* Sales buttons styling */
+ .btn-sales button {
+     margin: 7px 10px; 
+ 
+ }
+ 
+ .btn-sales button:nth-child(1){
+ 
+     width: 320px;
+ }
+ 
+ 
+ .btn-sales button:nth-child(2){
+     width: 170px;
+     
+ }
+ 
+ /* Sales percentages styling */
+
+ .sales h3 {
+    padding-top: 100px;
+ }
+ 
+ .sales ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-content: space-between;
+     margin: 50px;
+     gap: 20px;
+     padding-bottom: 60px;
+ 
+ }
+ 
+ .sales p {
+     margin: 15px auto;
+     font-weight: 600;
+     max-width: 220px;
+     text-align: left;
+ }
+ 
+ .sales span {
+     display: flex;
+     margin-bottom: 0;
+     margin-left: -5%;
+ }
+
+ .sales ul li p {
+    max-width: 270px ;
+    padding-bottom: 30px;
+ }
+ 
+ 
+ .sales ul li:nth-child(2) p:nth-child(2) {
+    max-width: 310px;
+ }
+
+ 
+ #added-text{
+    display: none;
+ }
+ 
+ /* SECTION 6*/
+ 
+ .try {
+     text-align: center;
+     margin: 0px 25px;
+     padding-bottom: 50px;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr); 
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+ }
+ 
+ .try h3 {
+     padding-top: 0px;
+     font-size: 2.2em;
+     padding-bottom: 0px;
+     padding-left: 50px;
+     padding-right: 50px;
+     grid-column: 1/7;
+ }
+ 
+ .try button {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ .try button:nth-of-type(1){
+    grid-column: 3/4;
+ }
+
+ .try button:nth-of-type(2){
+    grid-column: 4/5;
+ }
+
+ }
+
+ 
+@media screen and (min-width: 1440px){
+
+        
+/* SECTION 5 - SALES */
+
+
+.sales p:nth-of-type(1) {
+    font-size: 1em;
+ }
+ 
+ .btn-sales {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin: 20px auto;
+ }
+ 
+ 
+ /* Sales buttons styling */
+ .btn-sales button {
+     margin: 10px 10px; 
+     font-size: 0.8em;
+     height: 60px;
+ 
+ }
+ 
+ .btn-sales button:nth-child(1){
+     width: 400px;
+ }
+ 
+ 
+ .btn-sales button:nth-child(2){
+     width: 270px;
+     
+ }
+ 
+ /* Sales percentages styling */
+ 
+
+ .sales h3 {
+    padding-top: 100px;
+ }
+ 
+ .sales ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-content: space-between;
+     margin: 70px 120px;
+     gap: 20px;
+     padding-bottom: 60px;
+ 
+ }
+
+
+ .sales p {
+     margin: 15px auto;
+     font-weight: 600;
+     max-width: 220px;
+     text-align: left;
+ }
+ 
+ .sales span {
+     display: flex;
+     margin-bottom: 0;
+     margin-left: -5%;
+ }
+
+ .sales ul li p {
+    max-width: 270px ;
+    padding-bottom: 30px;
+ }
+ 
+ 
+ .sales ul li:nth-child(2) p:nth-child(2) {
+    max-width: 310px;
+ }
+
+ 
+ #added-text{
+    display: none;
+ }
+ 
+ /* SECTION 6*/
+ 
+ .try {
+     text-align: center;
+     margin: 0px 25px;
+     padding-bottom: 50px;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr); 
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+ }
+ 
+ .try h3 {
+     padding-top: 0px;
+     font-size: 2.2em;
+     padding-bottom: 0px;
+     padding-left: 50px;
+     padding-right: 50px;
+     grid-column: 1/7;
+ }
+ 
+ .try button {
+    font-size: 0.8em;
+    max-width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ .try button:nth-of-type(1){
+    grid-column: 3/4;
+ }
+
+ .try button:nth-of-type(2){
+    grid-column: 4/5;
+ }
+
+ }
+

@@ -1,0 +1,481 @@
+/* NAVIGATION BAR */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background-purple);
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+nav ul:nth-child(2){
+    display: none;
+}
+
+nav li {
+    display:none;
+}
+
+nav img {
+    max-width: 7em;
+}
+
+nav button {
+  max-width: 3em;     
+  max-height: 3em;
+  background-color: var(--background-purple);
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-icon {
+    max-width: 3em;
+
+}
+
+
+/* HEADER STYLING */
+header {
+    display: grid;
+    grid-template-columns: (9, 1fr);
+}
+
+header h1 {
+    color: white;
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+header p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: var(--background-ivory);
+}
+
+header p span {
+    color: var(--p-yellow);
+}
+
+
+/* Header Login Buttons */
+.btn-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-log button {
+    margin-bottom: 15px;
+    width: 95%;
+    height: 60px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: var(--background-purple);
+    border:none;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.btn-google {
+    background-color: var(--button-blue);
+    border: none;
+}
+
+.btn-google span {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: -45px;
+    color: var(--background-ivory);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.btn-google img {
+    background-color: var(--background-ivory);
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+    border-radius: 2px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px; 
+}
+
+/* HERO PRODUCT */
+
+.hero-product {
+    max-width: 800px;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.hero-product img {
+    width: 750px;
+    max-height: fit-content;
+    margin-left: -50px;
+   
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+
+
+
+/* HEADER STYLING */
+header {
+    border-top: 1px solid rgba(256,256,256,0.3);
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    padding-bottom: 100px;
+}
+
+header h1 {
+    grid-column: 1;
+    font-size: 3.6em;
+    margin-left: 30px;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 100px;
+}
+
+header p {
+    max-width: 60%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 1em;
+   
+}
+
+/* Header Login Buttons */
+
+.btn-log button {
+    font-size: 1em;
+    margin-left: 30px;   
+}
+
+.btn-google span {
+    font-size: 1em;
+
+}
+
+/* HERO PRODUCT */
+
+.hero-product {
+    max-height: 100%;
+    max-width: 100%; /*The image in the assets lacks the tip of the circle*/
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-product img {
+    max-width: 200%;
+    max-height: 100%;
+    position: absolute;
+    right: -300px;
+
+}
+
+
+}
+    
+@media screen and (min-width: 1024px) and (max-width:1440px){ 
+    
+  /* NAVIGATION STYLING */
+
+nav {
+    margin: 3%;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    margin-right: 4%;
+}
+ 
+
+nav div:nth-child(2) ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav div:nth-child(2) ul li a {
+    white-space: nowrap;
+}
+       
+nav div:nth-child(2) ul li:nth-child(2) {
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 5px;
+}
+   
+nav div:nth-child(2) ul li:nth-child(2) a {
+    box-sizing: border-box;
+    color: var(--background-purple);
+    padding: 10px;
+    font-weight: 600;  
+}
+   
+nav ul:nth-child(2) {
+    display:flex;
+    flex-direction: row;
+
+}
+
+nav li {
+    display: flex; 
+    flex-direction: row;
+    margin: 0 8%;
+    font-size: 1em;
+}
+
+nav li a {
+    color: white;
+    font-weight: 500;
+      
+}
+
+nav button:nth-child(1) {
+  max-width: 5em;     
+  margin-right: 50px;
+}
+
+      
+nav button:nth-child(2) {
+    display: none;    
+}
+
+    /* HEADER STYLING */
+
+header {
+    border-top: 1px solid rgba(256,256,256,0.3);
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 120px;
+}
+
+header h1 {
+    grid-column: 1;
+    font-size: 3.6em;
+    margin-left: 30px;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 500px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+header p {
+    max-width: 80%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 1em;
+   
+}
+
+/* Header Login Buttons */
+
+.btn-log {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.btn-log button {
+    max-width: 100%;
+    margin-left: 30px;  
+    font-size: 18px; 
+}
+
+.btn-google span {
+    font-size: 18px;
+
+}
+
+/* HERO PRODUCT */
+
+.hero-product {
+    max-height: 100%;
+    max-width: 100%; /*The image in the assets lacks the tip of the circle*/
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-product img {
+    max-width: 200%;
+    max-height: 100%;
+    position: absolute;
+    right: -150px;
+
+}
+ 
+}
+    
+@media screen and (min-width: 1440px){
+  /* NAVIGATION STYLING */
+
+  nav {
+    margin: 3%;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    margin-right: 4%;
+}
+ 
+
+nav div:nth-child(2) ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav div:nth-child(2) ul li a {
+    white-space: nowrap;
+}
+       
+nav div:nth-child(2) ul li:nth-child(2) {
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 5px;
+}
+   
+nav div:nth-child(2) ul li:nth-child(2) a {
+    box-sizing: border-box;
+    color: var(--background-purple);
+    padding: 10px;
+    font-weight: 600;  
+}
+   
+nav ul:nth-child(2) {
+    display:flex;
+    flex-direction: row;
+
+}
+
+nav li {
+    display: flex; 
+    flex-direction: row;
+    margin: 0 8%;
+    font-size: 1em;
+}
+
+nav li a {
+    color: white;
+    font-weight: 500;
+      
+}
+
+nav button:nth-child(1) {
+  max-width: 5em;     
+  margin-right: 50px;
+}
+
+      
+nav button:nth-child(2) {
+    display: none;    
+}
+
+    /* HEADER STYLING */
+
+header {
+    padding-top: 30px;
+    margin: 50px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 120px;
+}
+
+header h1 {
+    grid-column: 1;
+    font-size: 3.6em;
+    margin-left: 30px;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 80%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+header p {
+    max-width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 1em;
+   
+}
+
+/* Header Login Buttons */
+
+.btn-log {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.btn-log button {
+    max-width: 100%;
+    margin-left: 30px;  
+    font-size: 18px; 
+}
+
+.btn-google span {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+/* HERO PRODUCT */
+
+.hero-product {
+    max-height: 100%;
+    max-width: 100%; /*The image in the assets lacks the tip of the circle*/
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-product img {
+    max-width: 200%;
+    max-height: 100%;
+    position: absolute;
+    right: -30px;
+
+}
+ 
+}
+

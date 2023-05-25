@@ -8,3 +8,97 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* VARIABLE SETUP */
+
+:root {
+    --background-purple: #540B51;
+    --background-ivory: #f3eae2;
+    --button-blue: #4285f4;
+    --titles-black: #191817;
+    --p-black: #000000;
+    --p-yellow: #ecb12f;
+    --links-blue: #2e71A6;
+    --footer-links-grey: #454245;
+}
+
+/* PAGE 1 */
+
+/* STYLE RESET */
+
+* {
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* BASE STYLING */
+
+body {
+    background-color: var(--background-purple);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+    letter-spacing: -2px;
+    
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+     margin-bottom: 1em;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+     margin-bottom: 1em;
+    letter-spacing: -1px;
+}
+
+p, span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+}
+
+li {
+    font-size: 1em;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+    
+body {
+    font-size: 18px;
+}
+
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width:1440px){
+    
+body {
+    font-size: 20px;
+}
+    
+}
+
+@media screen and (min-width: 1440px){
+    
+body {
+    font-size: 22px;
+}
+}
