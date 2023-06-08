@@ -115,7 +115,7 @@ main{
                 font-size: 45px;
             }
             & p{
-                font-style:bold;
+                font-weight:bold;
             }
         }
     }
