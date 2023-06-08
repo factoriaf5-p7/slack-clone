@@ -1,0 +1,156 @@
+main{
+    background-color: #F3EAE2;
+    & #one{
+        display: flex;
+        flex-direction: column;
+        
+        & p{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 5%;
+        }
+        & #companies {
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            & img{
+                height: 6vh;
+                width: auto;
+                margin: 38px;
+            }
+        }
+    
+    }
+    
+    #two, #three, #four{
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        & img{
+            width:500px;
+            height: 400px;
+        }
+
+        & .text{
+            justify-self: right;
+            margin-left:20%;
+            margin-right: 10%;
+           
+            & a{
+                text-decoration: none;
+                color: #2E71A6;
+                
+            }
+            & h2{
+                font-size: 45px;
+            }
+            &p{
+                line-height: 40px;
+                font-size:25px;
+            }
+
+            &span{
+                color: #2E71A6;
+                margin: 3%;
+            }
+            
+        }
+    }
+   
+
+}
+
+#five{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white !important;
+    & h3{
+        font-size: 40px;
+        text-align: center;
+        margin: 20px;
+        color:#191817;
+    }
+    & p{
+        text-align: center;
+    }
+    & div{
+        display: flex;
+        margin: 10px;
+        & button{
+            font-size: medium;
+            border-radius: 5px;
+            height: 45px;
+            margin: 8px;
+            font-size: 25px;
+            width:max-content;
+            padding: 10px;
+    
+        }
+        & #btn1{
+            background-color: #540B51;
+            color: white;
+            border: none;
+            
+        }
+        & #btn2{
+            background-color: white;
+            color:#540B51;
+            border:1px solid #540B51;
+        }
+
+    }
+    & ul{
+        list-style: none;
+        display: flex;
+        margin: 20px;
+        & li{
+            padding: 50px;
+            & span{
+                color: #540B51;
+                font-size: 45px;
+            }
+            & p{
+                font-style:bold;
+            }
+        }
+    }
+}
+
+#six{
+    background-color: #540B51 !important;
+    display: flex ;
+    flex-direction: column !important;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6%;
+    & h3{
+        font-size: 40px;
+        text-align: center;
+        margin: 20px;
+        color:white;
+    }
+    & div{
+        & button{
+            height: 45px;
+            font-size: 20px;
+            padding: 10px;
+        }
+        & #btn3{
+            border: none;
+            color: #540B51;
+            background-color: white;
+        }
+        & #btn4{
+            color: white;
+            background-color:#540B51;
+            border:1px solid white;
+        }
+    }
+    
+    
+}

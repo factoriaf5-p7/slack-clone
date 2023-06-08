@@ -1,0 +1,78 @@
+header{
+    background-color: #540b51;
+    display: flex;
+    padding:5%;
+    height: 100vh;
+    & .hero-img{
+        overflow: hidden;
+        & img{
+            width:90%
+        }
+    }
+    & h1{
+        color: white;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 2px;
+
+    }
+    & .catch{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        font-size: 25px;
+        color: white;
+        line-height: 50px;
+        & strong{
+            color:#ECB12F
+        }
+        & .logIn-btn{
+            display: flex;
+            & button{
+                width:fit-content;
+                margin: 5px;
+                
+            }
+            & #email{ 
+                color: #540b51;
+                font-size: 20px;
+                background-color: white;
+                border:3px solid white;
+                border-radius: 5px;
+                padding: 10px;
+                height: 45px;
+                }
+            & #google{  
+                font-size: 17px;
+                background-color: #4285F4;
+                border:none;
+                border-radius: 5px;
+                padding: 10px;
+                height: 45px;
+                color: white;
+                display: flex;
+                flex-direction:row;
+                justify-content: space-between;
+                align-items: center;
+                & img {
+                    width: 30px;
+                    background-color: white;
+                    margin-right: 2px;
+                    margin-bottom: 2px;
+                }
+            }
+        }
+        
+    
+
+    }
+
+}
+
+
+
+@media screen and (min-width:800px){
+    .menu-button{
+        display: none;
+    }
+}
