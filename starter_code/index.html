@@ -21,12 +21,12 @@
     <title>Slack is your digital HQ | Slack</title>
   </head>
 
-  <body class="container mx-auto">
-    <nav >
+  <body>
+    <nav class="bg-purple flex justify-between items-center p-3"  >
       <div>
-        <img src="./images/slack-logo.png" alt="Slack logo" />
-
-        <ul>
+        <img class="w-24" src="./images/slack-logo.png" alt="Slack logo" />
+<!-- Mostrar menu en tamaño grande -->
+        <ul class="hidden">
           <li>
             <a href="#">Product</a>
           </li>
@@ -47,11 +47,12 @@
           <img src="./images/icon-search.png" alt="Search icon" />
         </button>
 
+        <!-- Ocultar este menu en tamaño grande -->
         <button>
           <img src="./images/icon-menu.png" alt="Menu icon" />
         </button>
 
-        <ul hidden>
+        <ul class="hidden">
           <li>
             <a href="#">Sign in</a>
           </li>
@@ -62,17 +63,18 @@
       </div>
     </nav>
 
-    <header>
+    <header class="bg-purple text-center">
       <div>
-        <h1>Great teamwork starts with a digital HQ</h1>
+        <h1 class="text-white font-semibold text-5xl pt-5">Great teamwork starts with a digital HQ</h1>
 
-        <p>Slack is free to try for as long as you'd like.</p>
+        <p class="text-white font-semibold my-5"><span class="text-yellow">Slack is free to try</span> for as long as you'd like</p>
 
-        <div>
-          <button>Sign up with email</button>
+        <div class="flex flex-col items-center">
+          <button class="text-purple bg-white font-semibold uppercase text-sm p-5 rounded-md w-11/12" >Sign up with email</button>
 
-          <button>
-            <img src="./images/logo-google.png" alt="Google logo" />
+          <button class="bg-blue text-white font-semibold uppercase
+           text-sm p-5 rounded-md w-11/12 relative " >
+            <img class="bg-white rounded-sm w-10 absolute top-[20%] left-2 p-1" src="./images/logo-google.png" alt="Google logo" />
             <span>Sign up with Google</span>
           </button>
         </div>
