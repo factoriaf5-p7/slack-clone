@@ -7,6 +7,7 @@ module.exports = {
         purple: '#540B51',
         yellow: '#C78837',
         blue: '#4285F4',
+        beight: '#F3EAE2',
       }
     },
   },
