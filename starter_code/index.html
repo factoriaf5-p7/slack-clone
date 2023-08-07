@@ -26,7 +26,7 @@
       <div class="flex gap-10">
         <img class="w-24" src="./images/slack-logo.png" alt="Slack logo" />
 <!-- Mostrar menu en tamaño grande -->
-        <ul class="hidden sm:flex gap-3 text-white">
+        <ul class="hidden sm:flex gap-3 text-white text-xs">
           <li>
             <a href="#">Product</a>
           </li>
@@ -52,36 +52,36 @@
           <img src="./images/icon-menu.png" alt="Menu icon" />
         </button>
 
-        <ul class="hidden sm:flex gap-5 text-white">
+        <ul class="hidden sm:flex gap-5 text-white text-xs">
           <li>
             <a href="#">Sign in</a>
           </li>
           <li>
-            <a href="#">Try for free</a>
+            <a class="text-purple bg-white uppercase px-3 py-2 rounded font-semibold" href="#">Try for free</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <header class="bg-purple text-center">
-      <div>
-        <h1 class="text-white font-semibold text-5xl pt-5">Great teamwork starts with a digital HQ</h1>
+    <header class="bg-purple text-center sm:flex sm:pb-20 sm:pt-5">
+      <div class="sm:px-10 sm:flex-1">
+        <h1 class="text-white font-semibold text-5xl pt-5 sm:text-start">Great teamwork starts with a digital HQ</h1>
 
-        <p class="text-white font-semibold my-5"><span class="text-yellow">Slack is free to try</span> for as long as you'd like</p>
+        <p class="text-white font-semibold my-5 sm:text-left sm:pt-7"><span class="text-yellow">Slack is free to try</span> for as long as you'd like</p>
 
-        <div class="flex flex-col items-center gap-y-3">
-          <button class="text-purple bg-white font-semibold uppercase text-sm p-5 rounded-md w-11/12" >Sign up with email</button>
+        <div class="flex flex-col items-center gap-y-3 sm:flex-row sm:gap-2 ">
+          <button class="text-purple bg-white font-semibold uppercase text-xs py-4 px-3 rounded w-11/12" >Sign up with email</button>
 
           <button class="bg-blue text-white font-semibold uppercase
-           text-sm p-5 rounded-md w-11/12 relative " >
+           text-xs py-4 px-3 rounded w-11/12 relative sm:w-full " >
             <img class="bg-white rounded-sm w-10 h-10 object-cover absolute top-1/2 left-2 p-2 transform -translate-y-1/2" src="./images/logo-google.png" alt="Google logo"  />
             <span>Sign up with Google</span>
           </button>
         </div>
       </div>
 
-      <div class="mt-5">
-        <img  src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <div class="mt-5 flex-1">
+        <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
       </div>
     </header>
 
