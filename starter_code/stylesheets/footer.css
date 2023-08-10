@@ -1,6 +1,6 @@
 footer{
    
-  margin: 2%;
+  margin:0.5rem;
   display: flex;
   flex-direction: column;
   & ul{
@@ -27,23 +27,25 @@ footer{
   & #other-links{
     display: flex;
     justify-content: space-between;
-    color: #191817;
-    font-weight: bold;
+    flex-direction: column;
+    color: black ;
+    font-weight:bolder;
   }
   & #social{
     display: flex;
-    color: #191817;
-    width: 300px;
+    width: 100vw;
+    justify-content: space-around;
     & i{
         margin:20px;
-        font-size:20px;
+        font-size:1.5rem;
         color: black;
     }
     
   }
   & small{
-    color: #454245;
-    font-size: 15px;
+    color: #494749;
+    font-size: 0.8rem;
+    font-weight: 100;
  }
  
 
