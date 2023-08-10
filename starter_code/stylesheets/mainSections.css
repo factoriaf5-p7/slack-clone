@@ -29,6 +29,9 @@ main{
     #two, #four{
         display: flex;
         flex-direction:column;
+        & .connectedness-desk{
+            display: none;
+        }
         & img{
             width:90vw;
             height:auto;
@@ -66,6 +69,9 @@ main{
     & #three{
         display: flex;
         flex-direction:column-reverse;
+        & .flex-desk{
+            display: none;
+        }
         & img{
             width:90vw;
             height:auto;
@@ -199,4 +205,112 @@ main{
     
     
 }
+}
+
+
+@media  (min-width:769px) and (max-width:1024px){
+
+    main{
+        & #one{
+            
+            & p{
+                font-size: 1rem;
+            }
+            & #companies {
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 1rem .5rem; 
+            }
+        
+        }
+        
+        #two, #four{
+            display: flex;
+            flex-direction:column;
+            & .connectedness-mob{
+                display: none;
+            }
+            & .connectedness-desk{
+                display: flex;
+            }
+            & img{
+                width:80vw;
+            }
+           
+    
+            & .text{
+                margin: 3rem 8.5rem;
+                width: 60vw;
+             
+            }
+        }
+    
+        & #three{
+            display: flex;
+            flex-direction:column-reverse;
+            & .flex-mob{
+                display: none;
+            }
+            & .flex-desk{
+                display: flex;
+            }
+            & img{
+                width:80vw;
+                margin: 1rem 9.8rem;
+            }
+           
+    
+            & .text{
+                margin: 3rem 8.5rem;
+                width: 60vw;
+             
+            }
+       
+    
+    }
+    
+    #five{
+        line-height: 3rem;
+                    
+        & div{
+            display: flex;
+            flex-direction: row;
+            & button{
+                margin: 0 0.5rem;
+                font-size: 1rem;
+                width:fit-content;
+                padding:0rem 2rem 0rem 2rem;
+            }
+    
+        }
+        & ul{
+            flex-direction: row;
+            margin: 1rem 0;
+            & li{
+                
+                & p{
+                    width: 22vw;
+                    line-height: 1.2rem;
+                    margin: 0 1.5rem;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    
+    #six{
+        padding: 3.5rem 0rem;
+        
+        & div{
+            & button{
+                width: 70vw;
+                font-size: 1rem;  
+            }
+           
+        }
+        
+        
+    }
+    }
+
 }
