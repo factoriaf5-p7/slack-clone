@@ -13,9 +13,12 @@ nav{
         margin: 0 0.5rem;
         
     }
-    & .menu, .action-btns{
+    & .action-btns{
         display: none !important;
-        
+    }
+    .menu{
+       display: none;
+
     }
     & button{
         background-color: transparent;
@@ -26,9 +29,55 @@ nav{
             width: 1.3rem;
         }
     }
+    & .menu.open{
+        position: absolute;
+        display: block ;
+        width: 8rem;
+        flex-direction: column;
+        justify-content: center ;
+        
+        list-style: none;
+        right: 2rem;
+        top:3.5rem;
+        transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        background-color: #f3eae2d8;
+        border-radius: 10px;
+        overflow: hidden;
+        & a{
+            color: #454245;
+            text-decoration: none;
+        }
+       
+        & li{
+            padding: 0.5rem;
+            margin-left: 1rem ;
+        }
+        & .free{
+            
+            border:1px solid #540b51;
+            border-radius: 5px;
+            background-color: #540b51;
+            height: 2.5rem;
+            max-width: fit-content;
+            & a{
+                color: white !important;
+                font-weight: bold;
+            }
+            
+        }
+        & li:hover{
+            transform: scale(1.2)
+        }
+    }
+    
+    
 }
 
-
+@media(min-width:1024px) and (max-width:1440px) {
+    .menu-button{
+        display: none;
+    }
+}
 
 
 

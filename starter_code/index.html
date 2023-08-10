@@ -38,17 +38,23 @@
         <li>
           <a href="#">Pricing</a>
         </li>
+        <li>
+          <a href="#">Sign in</a>
+        </li>
+        <li class="free">
+          <a href="#">Try for free</a>
+        </li>
       </ul>
     </div>
-
+    
     <div class="right-side" >
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
-      <button class='menu-button'> 
+      <button class='menu-button' > 
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
-
+      
       <ul class="action-btns">
         <li>
           <a href="#">Sign in</a>
@@ -277,5 +283,16 @@
 
   </footer> 
 </body>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleBtn = document.querySelector('.menu-button');
+    const menuToggle = document.querySelector('.menu');
 
+    toggleBtn.onclick = () => {
+      const isOpen = menuToggle.classList.contains('open');
+      menuToggle.classList.toggle('open', !isOpen); // Toggle the open class
+      console.log(isOpen);
+    };
+  });
+</script>
 </html>
