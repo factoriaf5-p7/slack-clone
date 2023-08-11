@@ -1,0 +1,197 @@
+header{
+    background-color: #540b51;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    & .hero-img{
+        max-width: 100vw;
+        overflow: hidden;
+        & img{
+            width:145vw;
+            margin-top: .5rem;
+        }
+    }
+    & h1{
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+        padding: 1rem;
+        line-height: 2.2rem;
+    }
+    & p{
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 100;
+        margin: 1rem;
+        }
+        & strong{
+            color:#ECB12F;
+            font-weight: 400;
+        }
+    
+        & .logIn-btn{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            & button{
+                width:fit-content;
+                margin: .35rem;
+                height: 3rem;
+                width: 85vw;
+                border-radius: 5px;
+                font-size: 1rem;
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+            }
+            & #email{ 
+                color: #540b51;
+                background-color: white;
+                border:3px solid white;
+                               
+                }
+            & #google{  
+                background-color: #4285F4;
+                border:none;
+                color: white;
+                flex-direction:row;
+                justify-content: space-evenly;
+                margin-bottom: .5rem;
+                
+                
+                & img {
+                    width: 2rem;
+                    background-color: white;
+                    margin-left:-4.5rem;
+                }
+            }
+        }
+        
+    }
+    
+
+
+@media  (min-width:769px) and (max-width:1024px){
+    header{
+        flex-direction: row !important;
+        align-items: center;
+        height: 85vh;
+        & .hero-img{
+            & img{
+                width:70vw;
+            }
+        }
+        & .catch{
+            max-width: 50vw;
+            margin:1rem 3rem 3rem 3rem;
+            ;
+            & h1{
+                font-size: 5rem;
+                text-align: start;
+                padding: 1rem;
+                line-height: 5rem;
+            }
+            & p{
+                text-align: start;
+                font-size: 1.5rem;
+                margin: 1.5rem;
+                }
+            & .logIn-btn{
+                & button{
+                        width:fit-content;
+                        margin: 0.5rem 0rem 1rem 2rem ;
+                        height: 3rem;
+                        width: 50vw;
+                        font-size: 1.2rem;
+                    }
+                & #email{ 
+                        color: #540b51;
+                        background-color: white;
+                        border:3px solid white;
+                                       
+                        }
+                & #google{  
+                        background-color: #4285F4;
+                        border:none;
+                        color: white;
+                        flex-direction:row;
+                        justify-content: space-evenly;
+                        margin-bottom: .5rem;            
+                        & img {
+                            width: 2rem;
+                            background-color: white;
+                            margin-left:-4.5rem;
+                        }
+                    }
+                }
+                
+        }
+        
+    }
+}
+
+
+@media(min-width:1025px) and (max-width:1440px) {
+    header{
+        flex-direction: row !important;
+        align-items: center;
+        height: 85vh;
+        & .hero-img{
+            & img{
+                width:70vw;
+            }
+        }
+        & .catch{
+            max-width: 50vw;
+            margin:1rem 3rem 3rem 3rem;
+            ;
+            & h1{
+                font-size: 5rem;
+                text-align: start;
+                padding: 1rem;
+                line-height: 5rem;
+            }
+            & p{
+                text-align: start;
+                font-size: 1.5rem;
+                margin: 1.5rem;
+                }
+            & .logIn-btn{
+                & button{
+                        width:fit-content;
+                        margin: 0.5rem 0rem 1rem 2rem ;
+                        height: 3rem;
+                        width: 50vw;
+                        font-size: 1.2rem;
+                    }
+                & #email{ 
+                        color: #540b51;
+                        background-color: white;
+                        border:3px solid white;
+                                       
+                        }
+                & #google{  
+                        background-color: #4285F4;
+                        border:none;
+                        color: white;
+                        flex-direction:row;
+                        justify-content: space-evenly;
+                        margin-bottom: .5rem;            
+                        & img {
+                            width: 2rem;
+                            background-color: white;
+                            margin-left:-4.5rem;
+                        }
+                    }
+                }
+                
+        }
+        
+    }
+}

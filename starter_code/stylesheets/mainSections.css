@@ -1,0 +1,402 @@
+main{
+    background-color: #F3EAE2;
+    & #one{
+        display: flex;
+        flex-direction: column;
+        
+        & p{
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem;
+            text-transform: uppercase;
+            margin-top: 1.5rem;
+        }
+        & #companies {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            & img{
+                height: 2rem;
+                margin: 0.5rem;
+            }
+        }
+    
+    }
+    
+    #two, #four{
+        display: flex;
+        flex-direction:column;
+        & .connectedness-desk{
+            display: none;
+        }
+        & img{
+            width:90vw;
+            height:auto;
+            margin: 2rem 0 ;
+        }
+       
+
+        & .text{
+            justify-self: left;
+            margin: 1rem 1.5rem;
+           
+            & a{
+                text-decoration: none;
+                color: #2E71A6;
+                
+            }
+            & h2{
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+            & p{
+                margin: 1rem 0;
+                line-height: 1.5rem;
+                font-size:1.1rem;
+            }
+
+            &span{
+                color: #2E71A6;
+                margin: 3%;
+            }
+            
+        }
+    }
+
+    & #three{
+        display: flex;
+        flex-direction:column-reverse;
+        & .flex-desk{
+            display: none;
+        }
+        & img{
+            width:90vw;
+            height:auto;
+            margin: 2rem 0rem 2rem 2.5rem;
+    }
+    & .text{
+        justify-self: left;
+        margin: 1rem 1.5rem;
+       
+        & a{
+            text-decoration: none;
+            color: #2E71A6;
+            
+        }
+        & h2{
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        & p{
+            margin: 1rem 0;
+            line-height: 1.5rem;
+            font-size:1.1rem;
+        }
+
+        &span{
+            color: #2E71A6;
+            margin: 3%;
+        }
+        
+    }
+   
+
+}
+
+#five{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white !important;
+    & h3{
+        font-size: 2rem;
+        text-align: center;
+        margin: 0.5rem;
+        color:#191817;
+    }
+    & p{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    & div{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        & button{
+            font-size: medium;
+            border-radius: 5px;
+            height: 3rem;
+            margin: .5rem 0;
+            font-size: 1rem;
+            width:90vw;
+            text-transform: uppercase;
+        }
+        & #btn1{
+            background-color: #540B51;
+            color: white;
+            border: none;
+            
+        }
+        & #btn2{
+            background-color: white;
+            color:#540B51;
+            border:1px solid #540B51;
+        }
+
+    }
+    & ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: .5rem;
+        & li{
+            padding: 1.5rem;
+            & span{
+                color: #540B51;
+                font-size: 45px;
+            }
+            & p{
+                font-weight:bold;
+            }
+        }
+    }
+}
+
+#six{
+    background-color: #540B51 !important;
+    display: flex ;
+    flex-direction: column !important;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    & h3{
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem;
+        color:white;
+        font-weight: 400;
+    }
+    & div{
+        display: flex;
+        flex-direction: column-reverse;
+        & button{
+            height: 3rem;
+            width: 85vw;
+            font-size: 1rem;
+            border-radius: 5px;
+            margin: .5rem 0;
+            text-transform: uppercase;
+        }
+        & #btn3{
+            border: none;
+            color: #540B51;
+            background-color: white;
+        }
+        & #btn4{
+            color: white;
+            background-color:#540B51;
+            border:1px solid white;
+        }
+    }
+    
+    
+}
+}
+
+
+@media  (min-width:769px) and (max-width:1024px){
+
+    main{
+        & #one{
+            
+            & p{
+                font-size: 1rem
+            }
+            & #companies {
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 1rem .5rem; 
+            }
+        
+        }
+        
+        #two, #four{
+            display: flex;
+            flex-direction:column;
+            & .connectedness-mob{
+                display: none;
+            }
+            & .connectedness-desk{
+                display: flex;
+            }
+            & img{
+                width:80vw;
+            }
+           
+    
+            & .text{
+                margin: 3rem 8.5rem;
+                width: 60vw;
+             
+            }
+        }
+    
+        & #three{
+            display: flex;
+            flex-direction:column-reverse;
+            & .flex-mob{
+                display: none;
+            }
+            & .flex-desk{
+                display: flex;
+            }
+            & img{
+                width:80vw;
+                margin: 1rem 9.8rem;
+            }
+           
+    
+            & .text{
+                margin: 3rem 8.5rem;
+                width: 60vw;
+             
+            }
+       
+    
+    }
+    
+    #five{
+        line-height: 3rem;
+                    
+        & div{
+            display: flex;
+            flex-direction: row;
+            & button{
+                margin: 0 0.5rem;
+                font-size: 1rem;
+                width:fit-content;
+                padding:0rem 2rem 0rem 2rem;
+            }
+    
+        }
+        & ul{
+            flex-direction: row;
+            margin: 1rem 0;
+            & li{
+                
+                & p{
+                    width: 22vw;
+                    line-height: 1.2rem;
+                    margin: 0 1.5rem;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    
+    #six{
+        padding: 3.5rem 0rem;
+        
+        & div{
+            & button{
+                width: 70vw;
+                font-size: 1rem;  
+            }
+           
+        }
+        
+        
+    }
+    }
+
+}
+
+
+@media(min-width:1025px) and (max-width:1440px) {
+    
+    main{
+        & #one{
+            
+            & p{
+                font-size: 1rem
+            }
+            & #companies {
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 1rem .5rem; 
+            }
+        
+        }
+        
+        #two, #four{
+            flex-direction: row;
+            margin-top: 4rem;
+                & img{
+                width: 50vw;
+            }
+            & .connectedness-mob{
+                display: none;
+            }
+            & .connectedness-desk{
+                display: flex;
+            }
+    
+            & .text{
+                margin: 3rem 7rem;
+                & h2{
+                    font-size: 3rem;
+                }
+                & p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    
+        & #three{
+            flex-direction: row;
+            & .flex-mob{
+                display: none;
+            }
+            & .flex-desk{
+                display: flex;
+            }
+            & img{
+            width: 50vw;
+            }
+           
+            & .text{
+                margin: 3rem 7rem;
+                & h2{
+                    font-size: 3rem;
+                }
+                & p{
+                    font-size: 1.2rem;
+                }
+            }
+       
+    
+    }
+    
+    
+    #six{
+        padding: 3.5rem 0rem;
+        
+        & div{
+            flex-direction: row;
+            & button{
+                width: 10vw;
+                font-size: 1rem;  
+                margin: 1rem;
+            }
+           
+        }
+        
+        
+    }
+    }
+ 
+ }

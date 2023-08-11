@@ -10,7 +10,11 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
 
   <!-- link your styles -->
+  <link rel="stylesheet" href="./stylesheets/navbar.css" />
+  <link rel="stylesheet" href="./stylesheets/header.css" />
   <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel="stylesheet" href="./stylesheets/mainSections.css" />
+  <link rel="stylesheet" href="./stylesheets/footer.css" />
 
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
@@ -18,10 +22,30 @@
 
 <body>
   <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+    <div class="left-side" >
+      <img class="logo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul class="menu">
+        <li>
+          <a href="#">Product</a>
+        </li>
+        <li>
+          <a href="#">Solutions</a>
+        </li>
+        <li>
+          <a href="#">Resources</a>
+        </li>
+        <li>
+          <a href="#">Pricing</a>
+        </li>
+        <li>
+          <a href="#">Sign in</a>
+        </li>
+        <li class="free">
+          <a href="#">Try for free</a>
+        </li>
+      </ul>
+      <ul class="menu-desk">
         <li>
           <a href="#">Product</a>
         </li>
@@ -36,21 +60,20 @@
         </li>
       </ul>
     </div>
-
-    <div>
+    
+    <div class="right-side" >
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
-
-      <button>
+      <button class='menu-button' > 
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
-
-      <ul hidden>
+      
+      <ul class="action-btns">
         <li>
           <a href="#">Sign in</a>
         </li>
-        <li>
+        <li class="free">
           <a href="#">Try for free</a>
         </li>
       </ul>
@@ -58,15 +81,15 @@
   </nav>
 
   <header>
-    <div>
+    <div class="catch">
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><strong>Slack is free to try</strong>  for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="logIn-btn">
+        <button id="email">Sign up with email</button>
 
-        <button>
+        <button id="google">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -74,32 +97,32 @@
 
     </div>
 
-    <div>
+    <div class="hero-img">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
-  <main>
-    <section>
-      <p>Trusted by companies all over the world</p>
+  <main >
+      <section id="one" >
+        <p>Trusted by companies all over the world</p>
 
+        <div id="companies">
+          <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
+          <img src="./images/logo-nasa.png" alt="NASA logo" />
+          <img src="./images/logo-uber.png" alt="Uber logo" />
+          <img src="./images/logo-target.png" alt="Target logo" />
+          <img src="./images/logo-nyt.png" alt="New York Times logo" />
+          <img src="./images/logo-spotify.png" alt="Spotify logo" />
+        </div>
+      </section>
+
+    <section id="two">
       <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+        <img src="./images/connectedness-mobile.png" alt="connectedness" class="connectedness-mob"/>
+        <img src="./images/connectedness.png" alt="connectedness" class="connectedness-desk" />
       </div>
 
-    </section>
-
-    <section>
-      <div>
-        <img src="./images/connectedness-mobile.png" alt="connectedness" />
-      </div>
-
-      <div>
+      <div class="text">
         <h2>Bring your team together</h2>
 
         <p>
@@ -113,8 +136,8 @@
       </div>
     </section>
 
-    <section>
-      <div>
+    <section id="three">
+      <div class="text">
         <h2>Choose how you want to work</h2>
         <p>
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
@@ -128,16 +151,18 @@
       </div>
 
       <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
+        <img src="./images/flexibility-mobile.png" alt="flexibility" class="flex-mob"/>
+        <img src="./images/flexibility.png" alt="flexibility" class="flex-desk"/>
       </div>
     </section>
 
-    <section>
+    <section id="four">
       <div>
-        <img src="./images/speed-mobile.png" alt="speed" />
+        <img src="./images/speed-mobile.png" alt="speed" class="connectedness-mob">
+        <img src="./images/speed.png" alt="connectedness" class="connectedness-desk" />
       </div>
 
-      <div>
+      <div class="text">
         <h2>Move faster with your tools in one place</h2>
         <p>
           With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
@@ -151,13 +176,13 @@
     </section>
 
 
-    <section>
+    <section id="five">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
       <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+        <button id="btn1">Meet Slack for enterprise</button>
+        <button id="btn2">Talk to sales</button>
       </div>
 
       <ul>
@@ -187,12 +212,14 @@
       </ul>
     </section>
 
-    <section>
+    <section id="six">
       <h3>Welcome to your new digital HQ</h3>
-
-      <button>Try for free</button>
-      <button>Talk to sales</button>
-    </section>
+      <div>
+        <button id="btn3">Try for free</button>
+        <button id="btn4">Talk to sales</button>
+      </div>
+      
+    </section> 
 
   </main>
 
@@ -200,7 +227,7 @@
     <img src="./images/iso-slack.png" alt="Slack logo" />
     <div>
       <ul>
-        <li>WHY SLACK?</li>
+        <li class="title">WHY SLACK?</li>
         <li>Slack vs. Email</li>
         <li>Channels</li>
         <li>Engagement</li>
@@ -209,7 +236,7 @@
       </ul>
 
       <ul>
-        <li>PRODUCT</li>
+        <li class="title">PRODUCT</li>
         <li>Features</li>
         <li>Integrations</li>
         <li>Enterprise</li>
@@ -218,13 +245,13 @@
       </ul>
 
       <ul>
-        <li>PRICING</li>
+        <li class="title">PRICING</li>
         <li>Plans</li>
         <li>Paid vs. Free</li>
       </ul>
 
       <ul>
-        <li>COMPANY</li>
+        <li class="title">COMPANY</li>
         <li>About Us</li>
         <li>Leadership</li>
         <li>Investor Relations</li>
@@ -234,8 +261,9 @@
       </ul>
     </div>
 
+    <hr>
 
-    <ul>
+    <ul id="other-links">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
@@ -245,9 +273,7 @@
       <li>Download Slack</li>
     </ul>
 
-    <hr>
-
-    <ul>
+    <ul id="social">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
@@ -269,7 +295,18 @@
       </small>
     </div>
 
-  </footer>
+  </footer> 
 </body>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleBtn = document.querySelector('.menu-button');
+    const menuToggle = document.querySelector('.menu');
 
+    toggleBtn.onclick = () => {
+      const isOpen = menuToggle.classList.contains('open');
+      menuToggle.classList.toggle('open', !isOpen); // Toggle the open class
+      console.log(isOpen);
+    };
+  });
+</script>
 </html>
