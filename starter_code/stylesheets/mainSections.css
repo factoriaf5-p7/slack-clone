@@ -214,7 +214,7 @@ main{
         & #one{
             
             & p{
-                font-size: 1rem;
+                font-size: 1rem
             }
             & #companies {
                 justify-content: space-evenly;
@@ -314,3 +314,89 @@ main{
     }
 
 }
+
+
+@media(min-width:1025px) and (max-width:1440px) {
+    
+    main{
+        & #one{
+            
+            & p{
+                font-size: 1rem
+            }
+            & #companies {
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 1rem .5rem; 
+            }
+        
+        }
+        
+        #two, #four{
+            flex-direction: row;
+            margin-top: 4rem;
+                & img{
+                width: 50vw;
+            }
+            & .connectedness-mob{
+                display: none;
+            }
+            & .connectedness-desk{
+                display: flex;
+            }
+    
+            & .text{
+                margin: 3rem 7rem;
+                & h2{
+                    font-size: 3rem;
+                }
+                & p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    
+        & #three{
+            flex-direction: row;
+            & .flex-mob{
+                display: none;
+            }
+            & .flex-desk{
+                display: flex;
+            }
+            & img{
+            width: 50vw;
+            }
+           
+            & .text{
+                margin: 3rem 7rem;
+                & h2{
+                    font-size: 3rem;
+                }
+                & p{
+                    font-size: 1.2rem;
+                }
+            }
+       
+    
+    }
+    
+    
+    #six{
+        padding: 3.5rem 0rem;
+        
+        & div{
+            flex-direction: row;
+            & button{
+                width: 10vw;
+                font-size: 1rem;  
+                margin: 1rem;
+            }
+           
+        }
+        
+        
+    }
+    }
+ 
+ }

@@ -49,11 +49,48 @@ footer{
 
   footer{
    
-    & ul{
-      flex-direction: row !important;
+    & #other-links{
+      flex-direction: row;
     }
     & #social {
       justify-content: flex-start;
     }
   }
 }
+
+@media(min-width:1025px) and (max-width:1440px) {
+
+  footer{
+    & ul{
+      display: flex;
+      flex-direction: column;      
+      list-style: none;
+      & .title{
+          font-weight: bold;
+      }
+      & li{
+          line-height: 35px;
+          color: #454245;
+          font-size: 13px;
+      }
+    }
+    & img{
+      width: 50px;
+     
+    } 
+    & div{
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-between;  
+         
+     }
+    & #other-links{
+      flex-direction: row ;
+    }
+    & #social {
+      justify-content: flex-start;
+      flex-direction: row;
+    }
+  }
+}
+
