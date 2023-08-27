@@ -34,12 +34,12 @@ nav {
   justify-content: space-between;
 }
 
-.search {
+.login {
   display: flex;
   justify-content: space-between;
 }
 
-.search button {
+.login button {
   background-color: #540b51;
 }
 
@@ -54,26 +54,26 @@ header {
   background-color: #540b51;
 }
 
-.container-imghero {
+.hero-section {
   overflow: hidden;
 }
 
-.bold-yellow {
+.yellow-text {
   font-weight: bold;
   color: orange;
 }
 
-.light-white {
+.white-text {
   font-weight: normal;
   color: white;
 }
 
-.btn-login {
+.sign-up {
   display: flex;
   flex-direction: column;
 }
 
-#Sign-inE {
+#sign-up-email {
   display: flex;
   color: white;
   justify-content: center;
@@ -84,7 +84,7 @@ header {
   text-transform: uppercase;
 }
 
-#Sign-inG {
+#sign-up-google {
   display: flex;
   align-items: center;
   color: white;
@@ -100,31 +100,31 @@ main {
   background-color: #f3eae2;
 }
 
-.first-sec {
+.section-one {
   padding: 2%;
   text-align: center;
 }
 
-.first-line {
+.companies-logos-one {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.second-line {
+.companies-logos-two {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.third-sec {
+.section-three {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.fifth-sec {
+.section-five {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -147,24 +147,24 @@ main {
   border-radius: 3px;
 }
 
-.fifth-sec span {
+.section-five span {
   font-size: 2em;
   color: #540b51;
 }
 
-.welcome {
+.section-six {
   background-color: #540b51;
   display: flex;
   flex-direction: column;
 }
 
-.welcome h3 {
+.section-six h3 {
   color: white;
   text-align: center;
   font-weight: bolder;
 }
 
-.btn-wlcome {
+.section-six-btn {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -180,17 +180,21 @@ footer {
   padding: 5%;
 }
 
-.ul-footer {
+.footer-links-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.ul-footer ul {
+.footer-links-info ul {
   display: flex;
   flex-direction: column;
 }
 
-.ul-footer li {
+#footer-bold-title {
+  font-weight: bold;
+}
+
+.footer-links-info li {
   margin: 10px 0;
 }

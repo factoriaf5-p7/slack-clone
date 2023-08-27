@@ -14,11 +14,11 @@
     width: 45%;
   }
 
-  .search {
+  .login {
     width: 10%;
   }
 
-  .search button {
+  .login button {
     margin: 0 10%;
   }
 
@@ -48,7 +48,7 @@
     text-align: left;
   }
 
-  .container-imghero {
+  .hero-section {
     flex-basis: 45%;
     display: flex;
     align-items: center;
@@ -58,22 +58,22 @@
     height: 40%;
   }
 
-  .bold-yellow {
+  .yellow-text {
     font-size: 1.5em;
   }
 
-  .light-white {
+  .white-text {
     font-size: 1.5em;
   }
 
-  #Sign-inE {
+  #sign-up-email {
     font-size: 1.2em;
     font-weight: 700;
     height: 60px;
     border-radius: 2px;
   }
 
-  #Sign-inG {
+  #sign-up-google {
     text-align: center;
     padding: 10px;
     margin: 0 0 30% 0;
@@ -89,7 +89,7 @@
     padding: 1%;
   }
 
-  #Sign-inG span {
+  #sign-up-google span {
     text-align: center;
     position: relative;
     left: 23%;
@@ -97,45 +97,45 @@
 
   /* MAIN */
 
-  .first-sec p {
+  .section-one p {
     font-weight: 800;
     margin: 5% 0 0 0;
     font-size: 1.5em;
   }
 
-  .image-comp {
+  .companies {
     display: flex;
     justify-content: space-between;
     margin: 5% 0 10% 0;
   }
 
-  .first-line {
+  .companies-logos-one {
     height: 5em;
     max-height: 100px;
     width: 49%;
   }
 
-  .second-line {
+  .companies-logos-two {
     height: 5em;
     width: 49%;
   }
 
-  .image-comp img {
+  .companies img {
     max-width: 60%;
     max-height: 60%;
   }
 
-  .second-sec * {
+  .section-two * {
     margin: 5% 0;
   }
 
-  .second-txt {
+  .section-two-text {
     margin: 0 20%;
     font-size: 1.5em;
     line-height: 1.5;
   }
 
-  .second-sec img {
+  .section-two img {
     width: 80%;
   }
 
@@ -143,33 +143,33 @@
     margin: 5% 0;
   }
 
-  .third-sec img {
+  .section-three img {
     width: 80%;
     float: right;
   }
 
-  .third-text {
+  .section-three-text {
     margin: 0 20%;
     font-size: 1.5em;
     line-height: 1.5;
   }
 
-  .fourth-sec img {
+  .section-four img {
     width: 80%;
     margin: 20px 0;
   }
 
-  .fourth-sec * {
+  .section-four * {
     margin: 5% 0;
   }
 
-  .fourth-text {
+  .section-four-text {
     margin: 3% 20%;
     font-size: 1.5em;
     line-height: 1.5;
   }
 
-  .fifth-sec-btn {
+  .section-five-btn {
     display: flex;
     justify-content: center;
     height: 6em;
@@ -193,20 +193,20 @@
     height: 60px;
   }
 
-  .fifth-sec h3 {
+  .section-five h3 {
     line-height: 2;
     font-size: 2em;
     margin: 2% 0;
   }
 
-  .fifth-sec p {
+  .section-five p {
     margin: 0 4%;
     font-size: 1.3em;
     margin: 0 0 2% 0;
     padding: 0 5%;
   }
 
-  .fifth-sec ul {
+  .section-five ul {
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
@@ -215,32 +215,32 @@
     text-align: left;
   }
 
-  .fifth-sec ul * {
+  .section-five ul * {
     margin: 0 4%;
   }
 
-  .fifth-sec sup {
+  .section-five sup {
     margin: 0;
   }
 
-  .welcome {
+  .section-six {
     padding: 5%;
   }
 
-  .welcome h3 {
+  .section-six h3 {
     font-size: 2.5em;
     margin: 0 0 5% 0;
   }
 
-  .btn-wlcome {
+  .section-six-btn {
     padding: 0 5%;
   }
 
-  .btn-wlcome * {
+  .section-six-btn * {
     margin: 2% 0;
   }
 
-  #wlc-try {
+  #try-btn {
     color: #540b51;
     text-transform: uppercase;
     font-weight: 700;
@@ -250,7 +250,7 @@
     border-radius: 3px;
   }
 
-  #wlc-takl {
+  #talk-btn {
     height: 60px;
     text-transform: uppercase;
     font-weight: 500;
@@ -269,23 +269,23 @@
     margin: 3% 0;
   }
 
-  .ul-footer {
+  .footer-links-info {
     font-size: 1em;
     position: relative;
   }
 
-  .ul-footer ul {
+  .footer-links-info ul {
     line-height: 1.5em;
   }
 
-  #ul-bold {
+  #footer-bold-links {
     position: relative;
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
   }
 
-  #ul-bold::before {
+  #footer-bold-links::before {
     content: "";
     position: absolute;
     top: 0;
@@ -295,14 +295,14 @@
     background-color: #f69898;
   }
 
-  #ul-bold li {
+  #footer-bold-links li {
     margin: 5% 0;
     height: 100%;
     font-weight: 800;
     font-size: 1em;
   }
 
-  #icon {
+  #social-network {
     display: flex;
     gap: 2em;
     margin: 5% 0;

@@ -14,14 +14,16 @@
     width: 50%;
   }
 
-  .search {
+  .login {
     float: right;
     flex-direction: row;
   }
 
-  .search button {
+  .login button {
     margin: 0 0 0 15px;
   }
+
+  /* HEADER */
 
   header {
     flex-direction: column;
@@ -42,14 +44,14 @@
     margin: 0;
   }
 
-  #Sign-inE {
+  #sign-up-email {
     font-size: 0.8em;
     font-weight: bold;
     height: 40%;
     border-radius: 2px;
   }
 
-  #Sign-inG {
+  #sign-up-google {
     padding: 1%;
     margin: 0 0 5% 0;
     height: 40%;
@@ -65,7 +67,7 @@
     padding: 2%;
   }
 
-  .span {
+  .google-text {
     flex-basis: 55%;
   }
 
@@ -75,16 +77,16 @@
 
   /* MAIN */
 
-  .first-sec {
+  .section-one {
     font-weight: 700;
   }
 
-  .image-comp {
+  .companies {
     display: flex;
     flex-direction: column;
   }
 
-  .first-line {
+  .companies-logos-one {
     flex-wrap: wrap;
     height: 70px;
     max-height: 60em;
@@ -92,7 +94,7 @@
     margin: 10% 0 0 0;
   }
 
-  .second-line {
+  .companies-logos-two {
     justify-content: space-around;
     flex-wrap: wrap;
     height: 70px;
@@ -101,7 +103,7 @@
     margin: 10% 0;
   }
 
-  .image-comp img {
+  .companies img {
     max-height: 55%;
   }
 
@@ -112,39 +114,39 @@
     margin: 10px 0;
   }
 
-  .second-sec p,
+  .section-two p,
   h2,
   span {
     margin: 5%;
   }
 
-  .second-sec img {
+  .section-two img {
     width: 100%;
   }
 
-  .third-sec img {
+  .section-three img {
     width: 100%;
     margin: 5% 0;
   }
 
-  .third-sec p {
+  .section-three p {
     margin: 5%;
   }
 
-  .fourth-sec {
+  .section-four {
     padding: 30px 0;
   }
 
-  .fourth-sec p {
+  .section-four p {
     margin: 5%;
   }
 
-  .fourth-sec img {
+  .section-four img {
     width: 100%;
     margin: 20px 0;
   }
 
-  .fifth-sec-btn {
+  .section-five-btn {
     display: flex;
     flex-direction: column;
     margin: 5% 5% 0 5%;
@@ -162,33 +164,33 @@
     height: 40%;
   }
 
-  .fifth-sec h3 {
+  .section-five h3 {
     margin: 40px 30px 10px 30px;
     font-size: 1.5em;
   }
 
-  .fifth-sec p {
+  .section-five p {
     margin: 0 4%;
   }
 
-  .fifth-sec ul {
+  .section-five ul {
     font-weight: bold;
     margin: 5%;
     padding: 0 15%;
     margin: 5% 0;
   }
 
-  .welcome h3 {
+  .section-six h3 {
     font-size: 1.5em;
     margin: 5%;
   }
 
-  .btn-wlcome {
+  .section-six-btn {
     margin: 0 5% 10% 5%;
     height: 100px;
   }
 
-  #wlc-try {
+  #try-btn {
     color: white;
     text-transform: uppercase;
     background-color: #540b51;
@@ -198,7 +200,7 @@
     border-radius: 3px;
   }
 
-  #wlc-takl {
+  #talk-btn {
     height: 40%;
     text-transform: uppercase;
     font-weight: 500;
@@ -214,14 +216,14 @@
     margin: 5% 0;
   }
 
-  #ul-bold li {
+  #footer-bold-links li {
     margin: 5% 0;
     height: 100%;
     font-weight: bold;
     font-size: 13px;
   }
 
-  #icon {
+  #social-network {
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
